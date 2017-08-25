@@ -1,0 +1,54 @@
+To make the preview version available in your Start menu, right-click studio64.exe and click Pin to Start Menu.
+
+git branch --set-upstream dev1 origin/dev1
+
+$git config -l
+user.name=zhicheng.huang
+user.email=zhicheng.huang@tcl.com
+color.ui=auto
+color.status=true
+color.interactive=true
+color.branch=true
+color.diff=true
+merge.tool=vimdiff
+mergetool.prompt=false
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+remote.origin.url=https://github.com/ShyBigBoy/mySuperCleanMaster.git
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+user.name=ShyBigBoy
+user.email=1104449876@qq.com
+branch.dev1.remote=origin
+branch.dev1.merge=refs/heads/dev1
+
+$ git config --global -l
+user.name=zhicheng.huang
+user.email=zhicheng.huang@tcl.com
+color.ui=auto
+color.status=true
+color.interactive=true
+color.branch=true
+color.diff=true
+merge.tool=vimdiff
+mergetool.prompt=false
+
+
+git可以在你提交时自动地把行结束符CRLF转换成LF，而在签出代码时把LF转换成CRLF。
+
+用core.autocrlf来打开此项功能，如果实在win系统上，把他设置成true，这样签出代码时,LF会被转换成CRLF。
+
+git config --global core.autocrlf  true
+
+linux或者mac系统使用lf作为行结束符，因此你不想git在签出文件时进行自动的转换，当一个以CRLF为行结束符的文件不小心被引入时你肯定想进行修正，把core.autocrlf设置成input来告诉git在提交时把CRLF转换成LF，签出时不转换。
+
+git config --global core.autocrlf  input
+
+这样会在win系统上的签出文件中保留CRLF，会在mac和linux系统上，包括仓库中保留LF。
+
+如果你是window程序员，且正在开发仅运行在win上的项目，可以设置false取消此功能，把回车符记录在库中。
+
+git config --global core.autocrlf  false
