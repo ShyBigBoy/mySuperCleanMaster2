@@ -24,7 +24,7 @@ import com.yzy.supercleanmaster.fragment.TabFragment;
 import com.yzy.supercleanmaster.utils.T;
 
 public class TabMainActivity extends AppCompatActivity {
-    private String[] titles = new String[]{"首页", "工具箱", "发现", "我"};
+    private final String[] titles = new String[]{"首页", "工具箱", "发现", "我"};
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
     private FragmentAdapter adapter;
@@ -89,8 +89,11 @@ public class TabMainActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 //super.onTabSelected(tab);
                 mViewPager.setCurrentItem(tab.getPosition(), false);
-
-                getSupportActionBar().setTitle(titles[tab.getPosition()]);
+                if(0 == tab.getPosition())  {
+                    getSupportActionBar().setTitle(getString(R.string.app_name));
+                } else {
+                    getSupportActionBar().setTitle(titles[tab.getPosition()]);
+                }
             }
         });
 

@@ -123,8 +123,8 @@ public class CoreService extends Service {
                 PendingIntent.FLAG_UPDATE_CURRENT);
         mBuilder = new Notification.Builder(this);
         Notification notification = mBuilder.setSmallIcon(R.drawable.small_icon)
-                .setContentTitle("This is CoreService")
-                .setContentText("Touch disabled").build();
+                .setContentText("This is CoreService")
+                .setSubText("Touch disabled").build();
                 //.setContentIntent(pendingIntent).build();
         //startForeground(1, notification);
         notificationManager.notify(1, notification);
@@ -203,7 +203,7 @@ public class CoreService extends Service {
                     public void onCleanCompleted(Context context, long cacheSize) {
                         String msg = new String("During Lock-Screen,Release Memory：" + cacheSize/1024/1024 + " MB");
                         Log.d(TAG, msg);
-                        Notification notification = mBuilder.setContentTitle(msg).build();
+                        Notification notification = mBuilder.setContentText(msg).build();
                         notificationManager.notify(1, notification);
                         //new Handler().postDelayed(()->stopSelf(), 5000);
                     }

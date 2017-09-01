@@ -24,52 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a859b37a-2d2c-4d6e-aa81-c5d9bd042f12" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/analytics_6_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mySuperCleanMaster.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_processes_1_0_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_processes_1_0_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib_core_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib_core_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib_core_slh_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib_core_slh_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib_manipulation_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib_manipulation_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_5_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_circular_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_circular_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v13_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v13_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_0_alpha1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/AutoStartFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/AutoStartFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/DeciveInfoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/DeciveInfoFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/MainFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/MainFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/NavigationDrawerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/NavigationDrawerFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/SettingsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/SettingsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/SoftwareManageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/SoftwareManageFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/TabFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/TabFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CleanerService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CleanerService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CoreService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CoreService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/ShortCutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/ShortCutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/widget/circleprogress/ArcProgress.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/widget/circleprogress/ArcProgress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_memory_clean.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_memory_clean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/TabMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/TabMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/utils/StorageUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/utils/StorageUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splish.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splish.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml" />
     </list>
     <ignored path="mySuperCleanMaster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,44 +79,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CoreService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CoreService.java">
+      <file leaf-file-name="MemoryCleanActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="390" column="88" lean-forward="false" selection-start-line="390" selection-start-column="88" selection-end-line="390" selection-end-column="88" />
+            <state relative-caret-position="360">
+              <caret line="131" column="49" lean-forward="false" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#TaskScan#0;class#CoreService#0" expanded="false" />
-                <element signature="class#TaskClean#0;class#CoreService#0" expanded="false" />
-                <element signature="method#getAvailMemory#0;class#CoreService#0" expanded="false" />
-                <element signature="method#cleanAllProcess#0;class#CoreService#0" expanded="false" />
-                <element signature="method#getApplicationInfo#0;class#CoreService#0" expanded="false" />
-                <element signature="method#killBackgroundProcesses#0;class#CoreService#0" expanded="false" />
-                <element signature="method#getRunningAppList#0;class#CoreService#0" expanded="false" />
-                <element signature="method#killBGProcesses#0;class#CoreService#0" expanded="false" />
-                <element signature="method#getInstalledIME#0;class#CoreService#0" expanded="false" />
-                <element signature="method#getApplicationInfo2#0;class#CoreService#0" expanded="false" />
-                <element signature="method#importanceToString#0;class#CoreService#0" expanded="false" />
+                <element signature="e#5048#5116#0" expanded="true" />
+                <element signature="method#onOptionsItemSelected#0;class#MemoryCleanActivity#0" expanded="false" />
+                <element signature="method#applyKitKatTranslucency#0;class#MemoryCleanActivity#0" expanded="false" />
+                <element signature="method#setTranslucentStatus#0;class#MemoryCleanActivity#0" expanded="false" />
+                <element signature="e#7267#7284#0" expanded="true" />
+                <element signature="e#7648#7697#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabMainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/TabMainActivity.java">
+      <file leaf-file-name="ClearMemoryAdapter2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelaxFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="52" column="58" lean-forward="false" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            <state relative-caret-position="254">
+              <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -160,78 +110,45 @@
       <file leaf-file-name="BaseFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="990">
+              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/TabFragment.java">
+      <file leaf-file-name="RelaxFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClearMemoryAdapter2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="35" column="86" lean-forward="false" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1378#1379#0" expanded="false" />
-                <element signature="e#1419#1420#0" expanded="false" />
-                <element signature="e#1476#1477#0" expanded="false" />
-                <element signature="e#1528#1529#0" expanded="false" />
-                <element signature="e#3798#3799#0" expanded="false" />
-                <element signature="e#3831#3832#0" expanded="false" />
-                <element signature="e#3876#3877#0" expanded="false" />
-                <element signature="e#3912#3913#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemoryCleanActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="131" column="81" lean-forward="false" selection-start-line="131" selection-start-column="81" selection-end-line="131" selection-end-column="81" />
+            <state relative-caret-position="823">
+              <caret line="135" column="16" lean-forward="false" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#onOptionsItemSelected#0;class#MemoryCleanActivity#0" expanded="false" />
-                <element signature="method#applyKitKatTranslucency#0;class#MemoryCleanActivity#0" expanded="false" />
-                <element signature="method#setTranslucentStatus#0;class#MemoryCleanActivity#0" expanded="false" />
+                <element signature="class#6694:7238" expanded="false" />
+                <element signature="method#hookWebView#0;class#RelaxFragment#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_memory_clean.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_memory_clean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-              <folding>
-                <marker date="1502702855417" expanded="false" signature="4549:4573" ph="&quot;16sp&quot;" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="fragment_relax.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserPresentReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/receiver/UserPresentReceiver.java">
+      <file leaf-file-name="WebSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/webkit/WebSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="591">
+              <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -249,20 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mContext</find>
-      <find>updateStorageUsage</find>
-      <find>mAppProcessInfos</find>
-      <find>getView</find>
-      <find>getDropDownView</find>
-      <find>mClearMemoryAdapter</find>
-      <find>scan</find>
-      <find>mFastScroll</find>
-      <find>mWidth</find>
-      <find>mListView</find>
-      <find>mAppProcsInfos</find>
-      <find>clearButton</find>
-      <find>clear_bu</find>
-      <find>mFooter</find>
       <find>bottom_lin</find>
       <find>mFooter.</find>
       <find>refeshTextCounter</find>
@@ -279,6 +182,20 @@
       <find>sufix</find>
       <find>killBgProcsAssociatedWithPkgs</find>
       <find>usedMemory</find>
+      <find>schedule</find>
+      <find>fillData</find>
+      <find>Resume</find>
+      <find>fillD</find>
+      <find>capacity</find>
+      <find>mImageView</find>
+      <find>isFirstLoad</find>
+      <find>activityManager</find>
+      <find>onActivityCreated</find>
+      <find>mWebView</find>
+      <find>isVisible</find>
+      <find>-&gt;</find>
+      <find>canBack</find>
+      <find>mProgressBar</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -2808,10 +2725,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_tab.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/tab_framment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_tab.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/selector_blue.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/selector_tab_find.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/selector_tab_friends.xml" />
@@ -2835,8 +2748,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/DeciveInfoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/NavigationDrawerFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/widget/circleprogress/ArcProgress.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/MainFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/SettingsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/TabFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/bean/AppProcInfo.java" />
@@ -2854,11 +2765,17 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter2.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_memory_clean.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CoreService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/receiver/UserPresentReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CoreService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/TabMainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/about.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/utils/StorageUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splish.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/MainFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java" />
       </list>
     </option>
   </component>
@@ -2891,34 +2808,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="superCleanMaster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mySuperCleanMaster2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mySuperCleanMaster2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Production">
           <PATH>
@@ -3045,7 +2935,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3071,7 +2961,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="receiver" />
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mySuperCleanMaster2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supercleanmaster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3093,9 +3009,50 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mySuperCleanMaster2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="superCleanMaster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mySuperCleanMaster2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mySuperCleanMaster2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3296,6 +3253,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -3616,11 +3594,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1602" height="905" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23866667" sideWeight="0.48326898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25160876" sideWeight="0.516" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25160876" sideWeight="0.52666664" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3634,7 +3613,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5050437" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160876" sideWeight="0.484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160876" sideWeight="0.47333333" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
@@ -3731,180 +3710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/usage/UsageStatsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2120">
-          <caret line="129" column="28" lean-forward="false" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/usage/UsageEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="123" column="22" lean-forward="false" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/usage/UsageStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="108" column="16" lean-forward="false" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/content/pm/ApplicationInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2560">
-          <caret line="160" column="7" lean-forward="false" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/avl_btn_clear_normal.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/bean/AppProcessInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
-      <provider selected="true" editor-type-id="apk-viewer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/RubbishCleanActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="69" column="6" lean-forward="false" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/os/Debug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="298" column="19" lean-forward="false" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/utils/StorageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/service/notification/StatusBarNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/NotificationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="946" column="25" lean-forward="true" selection-start-line="946" selection-start-column="25" selection-end-line="946" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/Notification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28880">
-          <caret line="1545" column="24" lean-forward="false" selection-start-line="1545" selection-start-column="11" selection-end-line="1545" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/ShortCutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2020">
-          <caret line="142" column="71" lean-forward="false" selection-start-line="142" selection-start-column="71" selection-end-line="142" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/widget/AdapterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="581" column="18" lean-forward="false" selection-start-line="581" selection-start-column="18" selection-end-line="581" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/bean/RunningProcInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/platforms/android-21/android.jar!/android/widget/AbsListView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="647" column="21" lean-forward="false" selection-start-line="647" selection-start-column="21" selection-end-line="647" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/bean/AppProcsInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/database/DataSetObservable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/widget/ListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/widget/SpinnerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/widget/BaseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/util/ArrayMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
@@ -3942,26 +3747,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listview_memory_clean.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/main/java/com/etiennelawlor/quickreturn/library/listeners/QuickReturnListViewOnScrollListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-319">
           <caret line="167" column="28" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="14030" column="19" lean-forward="false" selection-start-line="14030" selection-start-column="19" selection-end-line="14030" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -3987,55 +3785,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="35" column="86" lean-forward="false" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1378#1379#0" expanded="false" />
-            <element signature="e#1419#1420#0" expanded="false" />
-            <element signature="e#1476#1477#0" expanded="false" />
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#3798#3799#0" expanded="false" />
-            <element signature="e#3831#3832#0" expanded="false" />
-            <element signature="e#3876#3877#0" expanded="false" />
-            <element signature="e#3912#3913#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#1880#1898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/java/text/DecimalFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="431" column="11" lean-forward="false" selection-start-line="431" selection-start-column="11" selection-end-line="431" selection-end-column="11" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_memory_clean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-          <folding>
-            <marker date="1502702855417" expanded="false" signature="4549:4573" ph="&quot;16sp&quot;" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/os/AsyncTask.java">
@@ -4053,33 +3807,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java">
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/Notification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="131" column="81" lean-forward="false" selection-start-line="131" selection-start-column="81" selection-end-line="131" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#MemoryCleanActivity#0" expanded="false" />
-            <element signature="method#applyKitKatTranslucency#0;class#MemoryCleanActivity#0" expanded="false" />
-            <element signature="method#setTranslucentStatus#0;class#MemoryCleanActivity#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-3959">
+          <caret line="4517" column="15" lean-forward="false" selection-start-line="4517" selection-start-column="15" selection-end-line="4517" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="316" column="25" lean-forward="false" selection-start-line="316" selection-start-column="25" selection-end-line="316" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="242" column="31" lean-forward="false" selection-start-line="242" selection-start-column="31" selection-end-line="242" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="5861" column="22" lean-forward="false" selection-start-line="5861" selection-start-column="22" selection-end-line="5861" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/TabMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="92" column="57" lean-forward="false" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="165" column="41" lean-forward="false" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/ui_settings.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/umeng_social_sdk.jar!/com/umeng/socialize/controller/ShareService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/umeng_social_sdk.jar!/com/umeng/socialize/controller/UMServiceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/os/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3351">
+          <caret line="219" column="23" lean-forward="false" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/utils/StorageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/ActivityManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2285" column="20" lean-forward="false" selection-start-line="2285" selection-start-column="20" selection-end-line="2285" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/SplishActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1391">
+          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_tab.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_memory_clean.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/utils/AppUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="973" column="23" lean-forward="false" selection-start-line="973" selection-start-column="23" selection-end-line="973" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splish.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="1585" column="33" lean-forward="false" selection-start-line="1585" selection-start-column="16" selection-end-line="1585" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/SettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="110" column="49" lean-forward="false" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/TabFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="4854" column="16" lean-forward="false" selection-start-line="4854" selection-start-column="16" selection-end-line="4854" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/webkit/WebView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="784" column="16" lean-forward="false" selection-start-line="784" selection-start-column="16" selection-end-line="784" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="254" column="24" lean-forward="false" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="24" />
+          <folding>
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4199#4200#0" expanded="true" />
+            <element signature="method#fillData#0;class#MainFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2060">
+          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <element signature="e#1880#1898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/net/NetworkInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="3024" column="39" lean-forward="false" selection-start-line="3024" selection-start-column="39" selection-end-line="3024" selection-end-column="39" />
+          <caret line="246" column="19" lean-forward="false" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10567" column="25" lean-forward="false" selection-start-line="10567" selection-start-column="25" selection-end-line="10567" selection-end-column="25" />
+          <folding>
+            <element signature="e#418838#418839#0" expanded="false" />
+            <element signature="e#418869#418870#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="1148" column="25" lean-forward="false" selection-start-line="1148" selection-start-column="25" selection-end-line="1148" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/service/CoreService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="390" column="88" lean-forward="false" selection-start-line="390" selection-start-column="88" selection-end-line="390" selection-end-column="88" />
+        <state relative-caret-position="1287">
+          <caret line="176" column="54" lean-forward="false" selection-start-line="176" selection-start-column="52" selection-end-line="176" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="class#TaskScan#0;class#CoreService#0" expanded="false" />
             <element signature="class#TaskClean#0;class#CoreService#0" expanded="false" />
             <element signature="method#getAvailMemory#0;class#CoreService#0" expanded="false" />
@@ -4095,46 +4077,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/TabFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/MemoryCleanActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="131" column="49" lean-forward="false" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5048#5116#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#MemoryCleanActivity#0" expanded="false" />
+            <element signature="method#applyKitKatTranslucency#0;class#MemoryCleanActivity#0" expanded="false" />
+            <element signature="method#setTranslucentStatus#0;class#MemoryCleanActivity#0" expanded="false" />
+            <element signature="e#7267#7284#0" expanded="true" />
+            <element signature="e#7648#7697#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/base/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="990">
+          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/adapter/ClearMemoryAdapter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/2c345361fab65943b20cfe63b170c37d/jars/classes.jar!/android/support/v4/widget/SwipeRefreshLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="392" column="19" lean-forward="false" selection-start-line="392" selection-start-column="19" selection-end-line="392" selection-end-column="19" />
+          <folding>
+            <element signature="e#15468#15469#0" expanded="true" />
+            <element signature="e#15507#15508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relax.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../myTools/adt-bundle-linux-x86_64-20140702/sdk/sources/android-25/android/webkit/WebSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/fragment/RelaxFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="52" column="58" lean-forward="false" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yzy/supercleanmaster/ui/TabMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="823">
+          <caret line="135" column="16" lean-forward="false" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#6694:7238" expanded="false" />
+            <element signature="method#hookWebView#0;class#RelaxFragment#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

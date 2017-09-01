@@ -115,7 +115,7 @@
                     android:paddingLeft="10.0dip"
                     android:paddingRight="10.0dip"
                     android:singleLine="true"
-                    android:text="作者:"
+                    android:text="作  者:"
                     android:textSize="12.0sp" />
 
                 <TextView
@@ -125,7 +125,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="5"
                     android:duplicateParentState="true"
-                    android:gravity="center"
+                    android:gravity="left"
                     android:paddingLeft="10.0dip"
                     android:paddingRight="10.0dip"
                     android:singleLine="true"
@@ -163,7 +163,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="5"
                     android:duplicateParentState="true"
-                    android:gravity="center"
+                    android:gravity="left"
                     android:linksClickable="true"
                     android:paddingLeft="10.0dip"
                     android:paddingRight="10.0dip"

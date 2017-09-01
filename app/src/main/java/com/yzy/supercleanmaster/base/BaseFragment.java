@@ -17,7 +17,7 @@ import com.yzy.supercleanmaster.utils.T;
 public abstract class BaseFragment extends Fragment {
 	private boolean isVisible = false;
 	private boolean isPrepared = false;
-	private boolean isFirstLoad = true;
+	private boolean isFirstLoad = false;
 
 	@Override
 	public void setUserVisibleHint(boolean isVisibleToUser) {
@@ -55,8 +55,8 @@ public abstract class BaseFragment extends Fragment {
 	}
 
 	@Override
-	public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-		super.onActivityCreated(savedInstanceState);
+	public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+		super.onViewCreated(view, savedInstanceState);
 		isPrepared = true;
 		Log.i("CleanMaster", "BaseFragment.onActivityCreated isPrepared=" + isPrepared);
 		lazyLoad();
@@ -103,7 +103,7 @@ public abstract class BaseFragment extends Fragment {
 
 	@Override
 	public void onDestroy() {//被ViewPager移出FragmentManager但实体类没有从内存销毁,变量需要重新初始化
-		isFirstLoad = true;
+		isFirstLoad = false;
 		isPrepared = false;
 		super.onDestroy();
 	}

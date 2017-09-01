@@ -1,5 +1,7 @@
 package com.yzy.supercleanmaster.fragment;
 
+import android.app.Activity;
+import android.app.ActivityManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -44,12 +46,19 @@ public class MainFragment extends BaseFragment {
     TextView capacity;
 
     Context mContext;
+    private ActivityManager activityManager = null;
 
     private Timer timer;
     private Timer timer2;
     //avoid creating multiple instances of specified activity due to user's misoperation
     private boolean mSingleton;
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mContext = getActivity();
+        activityManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
+    }
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -87,8 +96,6 @@ public class MainFragment extends BaseFragment {
             }
         });
 
-        mContext = getActivity();
-
         Log.i("CleanMaster", "MainFragment.initViews()");
 
         return view;
@@ -97,9 +104,9 @@ public class MainFragment extends BaseFragment {
     @Override
     public void onResume() {
         super.onResume();
+        Log.i("CleanMaster", "MainFragment.onResume");
         fillData();
         mSingleton = false;
-        Log.i("CleanMaster", "MainFragment.onResume");
     }
 
     @Override
@@ -107,21 +114,16 @@ public class MainFragment extends BaseFragment {
         // TODO Auto-generated method stub
         super.onActivityCreated(savedInstanceState);
         UmengUpdateAgent.update(getActivity());
-        Log.i("CleanMaster", "MainFragment.onActivityCreated");
+        Log.i("CleanMaster", "MainFragment.onActivityCreated ");
     }
 
     @Override
     protected void initData() {
-        Log.i("CleanMaster", "MainFragment.initData() called");
-    }
-
-    @Override
-    public boolean getUserVisibleHint() {
-        Log.i("CleanMaster", "MainFragment.getUserVisibleHint() called");
-        return super.getUserVisibleHint();
+        Log.i("CleanMaster", "MainFragment.initData called");
     }
 
     private void fillData() {
+        Log.i("CleanMaster", "MainFragment.fillData called");
         // TODO Auto-generated method stub
         timer = null;
         timer2 = null;
@@ -133,23 +135,28 @@ public class MainFragment extends BaseFragment {
         long y = AppUtil.getTotalMemory(mContext);
         final double x = (((y - l) / (double) y) * 100);
         //   arcProcess.setProgress((int) x);
+        //Log.i("CleanMaster","totalMem2=" + StorageUtil.convertStorage(y)
+        //        + ",usedMem2=" + StorageUtil.convertStorage(y-l));
 
         arcProcess.setProgress(0);
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
+                Activity instance = getActivity();
+                if (null != instance) {
+                    instance.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
 
-                        if (arcProcess.getProgress() >= (int) x) {
-                            timer.cancel();
-                        } else {
-                            arcProcess.setProgress(arcProcess.getProgress() + 1);
+                            if (arcProcess.getProgress() >= (int) x) {
+                                timer.cancel();
+                            } else {
+                                arcProcess.setProgress(arcProcess.getProgress() + 1);
+                            }
+
                         }
-
-                    }
-                });
+                    });
+                }
             }
         }, 50, 20);
 
@@ -174,19 +181,21 @@ public class MainFragment extends BaseFragment {
         timer2.schedule(new TimerTask() {
             @Override
             public void run() {
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
+                Activity instance = getActivity();
+                if (null != instance) {
+                    instance.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
 
+                            if (arcStore.getProgress() >= (int) percentStore) {
+                                timer2.cancel();
+                            } else {
+                                arcStore.setProgress(arcStore.getProgress() + 1);
+                            }
 
-                        if (arcStore.getProgress() >= (int) percentStore) {
-                            timer2.cancel();
-                        } else {
-                            arcStore.setProgress(arcStore.getProgress() + 1);
                         }
-
-                    }
-                });
+                    });
+                }
             }
         }, 50, 20);
 

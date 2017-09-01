@@ -2,9 +2,12 @@ package com.yzy.supercleanmaster.fragment;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -36,6 +39,7 @@ public class RelaxFragment extends BaseFragment {
     WebView mWebView;
     //@InjectView(R.id.progress_bar)
     ProgressBar mProgressBar;
+    private SwipeRefreshLayout mSwipeLayout;
     Context mContext;
 
     @Override
@@ -46,9 +50,12 @@ public class RelaxFragment extends BaseFragment {
         hookWebView();
         View view = inflater.inflate(R.layout.fragment_relax, container, false);
         //ButterKnife.inject(this, view);
+
+        mSwipeLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_container);
         mWebView = (WebView) view.findViewById(R.id.webView);
         mProgressBar = (ProgressBar) view.findViewById(R.id.progress_bar);
         mContext = getActivity();
+
 
         Log.i("CleanMaster", "RelaxFragment.initViews()");
 
@@ -60,13 +67,14 @@ public class RelaxFragment extends BaseFragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        initWebview();
+        //initWebview();
         Log.i("CleanMaster", "RelaxFragment.onViewCreated");
     }
 
     @Override
     protected void initData() {
         Log.i("CleanMaster", "RelaxFragment.initData() called");
+        initWebview();
     }
 
     @Override
@@ -84,25 +92,24 @@ public class RelaxFragment extends BaseFragment {
     public void onDestroyView() {
         super.onDestroyView();
         //ButterKnife.reset(this);
+        mWebView.removeAllViews();
+        mWebView.destroy();
         Log.i("CleanMaster", "RelaxFragment.onDestroyView");
     }
     private void initWebview() {
         // TODO Auto-generated method stub
-        WebSettings webSettings = mWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        // 设置可以访问文件
-        webSettings.setAllowFileAccess(true);
-        // 设置可以支持缩放
-        webSettings.setSupportZoom(true);
-        // 设置默认缩放方式尺寸是far
-        webSettings.setDefaultZoom(WebSettings.ZoomDensity.MEDIUM);
-        // 设置出现缩放工具
-        webSettings.setBuiltInZoomControls(false);
-        webSettings.setDefaultFontSize(20);
+        Log.i("CleanMaster", "RelaxFragment.initWebview called");
+        mSwipeLayout.setOnRefreshListener(()->mWebView.loadUrl(mWebView.getUrl()));//重新刷新页面
+        mSwipeLayout.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light,
+                android.R.color.holo_orange_light, android.R.color.holo_red_light);
 
+        initWebSettings();
+
+        mWebView.requestFocusFromTouch();//支持获取手势焦点
         // 访问assets目录下的文件
 
-        mWebView.loadUrl("http://girl-atlas.com");
+        mWebView.loadUrl("http://girl-atlas.net");
+        mWebView.requestFocus();//触摸焦点起作用
 
         // 设置WebViewClient
         mWebView.setWebViewClient(new WebViewClient() {
@@ -172,6 +179,11 @@ public class RelaxFragment extends BaseFragment {
             @Override
             public void onProgressChanged(WebView view, int newProgress) {
                 mProgressBar.setProgress(newProgress);
+                if (100 == newProgress) {
+                    mSwipeLayout.setRefreshing(false);//隐藏进度条
+                } else {
+                    if (!mSwipeLayout.isRefreshing()) mSwipeLayout.setRefreshing(true);
+                }
                 super.onProgressChanged(view, newProgress);
             }
 
@@ -181,6 +193,7 @@ public class RelaxFragment extends BaseFragment {
                 super.onReceivedTitle(view, title);
             }
         });
+
         mWebView.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
@@ -199,6 +212,37 @@ public class RelaxFragment extends BaseFragment {
         });
     }
 
+    private void initWebSettings() {
+        WebSettings webSettings = mWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        //设置适应屏幕
+        webSettings.setUseWideViewPort(true);
+        webSettings.setLoadWithOverviewMode(true);
+        // 设置可以访问文件
+        webSettings.setAllowFileAccess(true);
+        webSettings.setNeedInitialFocus(true);
+        webSettings.setDefaultTextEncodingName("UTF-8");
+        // 设置可以支持缩放
+        webSettings.setSupportZoom(true);
+        //支持内容重新布局
+        webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+        webSettings.supportMultipleWindows();
+        webSettings.setSupportMultipleWindows(true);
+        // 设置默认缩放方式尺寸是far
+        webSettings.setDefaultZoom(WebSettings.ZoomDensity.MEDIUM);
+        // 设置出现缩放工具
+        webSettings.setBuiltInZoomControls(false);
+        webSettings.setDefaultFontSize(20);
+        //设置缓存模式
+        webSettings.setDomStorageEnabled(true);
+        webSettings.setDatabaseEnabled(true);
+        webSettings.setAppCacheEnabled(true);
+        webSettings.setAppCachePath(mWebView.getContext().getCacheDir().getAbsolutePath());
+        if (isNetworkAvailable(mContext)) {
+            webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        } else { webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);}
+    }
+
     public boolean canBack() {
         if (mWebView.canGoBack()) {
             mWebView.goBack();
@@ -211,11 +255,19 @@ public class RelaxFragment extends BaseFragment {
      * For security reasons, WebView is not allowed in privileged processes with 'android.uid.system'
      */
     private void hookWebView(){
+        Log.i("CleanMaster", "call hookWebView ...");
         Class<?> factoryClass = null;
         try {
             factoryClass = Class.forName("android.webkit.WebViewFactory");
             Method getProviderClassMethod = null;
             Object sProviderInstance = null;
+
+            Field field = factoryClass.getDeclaredField("sProviderInstance");
+            field.setAccessible(true);
+            if (null != field.get("sProviderInstance")) {
+                Log.i("CleanMaster", "provider exist !");
+                return;
+            }
 
             if (Build.VERSION.SDK_INT <= 21) {//Android 21无WebView安全限制
                 return;
@@ -250,13 +302,29 @@ public class RelaxFragment extends BaseFragment {
                 sProviderInstance = providerClass.newInstance();
             }*/
             if (sProviderInstance != null) {
-                Log.i("CleanMaster", sProviderInstance.toString());
-                Field field = factoryClass.getDeclaredField("sProviderInstance");
-                field.setAccessible(true);
+                Log.i("CleanMaster", "sProviderInstance=" + sProviderInstance.toString());
+                //Field field = factoryClass.getDeclaredField("sProviderInstance");
+                //field.setAccessible(true);
                 field.set("sProviderInstance", sProviderInstance);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    boolean isNetworkAvailable(Context context) {
+        ConnectivityManager connectivity = (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connectivity != null) {
+            NetworkInfo info = connectivity.getActiveNetworkInfo();
+            if (info != null && info.isAvailable()) {
+                // 当前网络是连接的
+                if (info.getState() == NetworkInfo.State.CONNECTED) {
+                    // 当前所连接的网络可用
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
