@@ -122,6 +122,12 @@ public class MainFragment extends BaseFragment {
         Log.i("CleanMaster", "MainFragment.initData called");
     }
 
+    @Override
+    public boolean getUserVisibleHint() {
+        Log.i("CleanMaster", "MainFragment.getUserVisibleHint() called");
+        return super.getUserVisibleHint();
+    }
+
     private void fillData() {
         Log.i("CleanMaster", "MainFragment.fillData called");
         // TODO Auto-generated method stub

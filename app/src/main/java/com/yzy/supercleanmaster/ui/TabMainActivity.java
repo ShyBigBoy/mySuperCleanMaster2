@@ -21,6 +21,7 @@ import com.yzy.supercleanmaster.fragment.MainFragment;
 import com.yzy.supercleanmaster.fragment.RelaxFragment;
 import com.yzy.supercleanmaster.fragment.SettingsFragment;
 import com.yzy.supercleanmaster.fragment.TabFragment;
+import com.yzy.supercleanmaster.fragment.WebFragment;
 import com.yzy.supercleanmaster.utils.T;
 
 public class TabMainActivity extends AppCompatActivity {
@@ -58,8 +59,10 @@ public class TabMainActivity extends AppCompatActivity {
 
         mFragments = new ArrayList<>();
         mFragments.add(new MainFragment());
-        mFragments.add(TabFragment.newInstance(1));
-        mFragments.add(new RelaxFragment());
+        //mFragments.add(TabFragment.newInstance(1));
+        mFragments.add(WebFragment.newInstance("https://www.baidu.com/"));
+        //mFragments.add(new RelaxFragment());
+        mFragments.add(WebFragment.newInstance("http://girl-atlas.net/"));
         mFragments.add(new SettingsFragment());
         /*for (int i = 0; i < mTitles.size(); i++) {
             mFragments.add(TabFragment.newInstance(i));
@@ -122,5 +125,9 @@ public class TabMainActivity extends AppCompatActivity {
         }
 
         return super.onKeyDown(keyCode, event);
+    }
+
+    public void setViewPagerCanScroll(boolean canScroll) {
+        mViewPager.requestDisallowInterceptTouchEvent(canScroll);
     }
 }

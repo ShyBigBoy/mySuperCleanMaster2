@@ -1,5 +1,6 @@
 package com.yzy.supercleanmaster.fragment;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.ConnectivityManager;
@@ -12,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.JsPromptResult;
@@ -24,6 +26,7 @@ import android.widget.ProgressBar;
 
 import com.yzy.supercleanmaster.R;
 import com.yzy.supercleanmaster.base.BaseFragment;
+import com.yzy.supercleanmaster.ui.TabMainActivity;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -33,7 +36,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 
-public class RelaxFragment extends BaseFragment {
+public abstract class BaseWebFragment extends BaseFragment {
 
     //@InjectView(R.id.webView)
     WebView mWebView;
@@ -41,6 +44,7 @@ public class RelaxFragment extends BaseFragment {
     ProgressBar mProgressBar;
     private SwipeRefreshLayout mSwipeLayout;
     Context mContext;
+    private String mTargetUrl;
 
     @Override
     protected View initViews(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -57,35 +61,19 @@ public class RelaxFragment extends BaseFragment {
         mContext = getActivity();
 
 
-        Log.i("CleanMaster", "RelaxFragment.initViews()");
+        Log.i("CleanMaster", "BaseWebFragment.initViews()");
 
         return view;
     }
 
-
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        //initWebview();
-        Log.i("CleanMaster", "RelaxFragment.onViewCreated");
-    }
-
     @Override
     protected void initData() {
-        Log.i("CleanMaster", "RelaxFragment.initData() called");
-        initWebview();
+        Log.i("CleanMaster", "BaseWebFragment.initData() called");
+        mTargetUrl = initWebArgs();
+        if (null != mTargetUrl && !mTargetUrl.isEmpty()) initWebview();
     }
 
-    @Override
-    public boolean getUserVisibleHint() {
-        Log.i("CleanMaster", "RelaxFragment.getUserVisibleHint() called");
-        return super.getUserVisibleHint();
-    }
-
-    private void fillData() {
-
-    }
+    private void fillData() {}
 
 
     @Override
@@ -94,22 +82,26 @@ public class RelaxFragment extends BaseFragment {
         //ButterKnife.reset(this);
         mWebView.removeAllViews();
         mWebView.destroy();
-        Log.i("CleanMaster", "RelaxFragment.onDestroyView");
+        Log.i("CleanMaster", "BaseWebFragment.onDestroyView");
     }
+
     private void initWebview() {
         // TODO Auto-generated method stub
-        Log.i("CleanMaster", "RelaxFragment.initWebview called");
+        Log.i("CleanMaster", "BaseWebFragment.initWebview called");
         //mSwipeLayout.setOnRefreshListener(()->mWebView.loadUrl(mWebView.getUrl()));//重新刷新页面
-        mSwipeLayout.setOnRefreshListener(()->mWebView.reload());//重新刷新页面
+        /*mSwipeLayout.setOnRefreshListener(()->mWebView.reload());//重新刷新页面
+        * 下拉刷新和 带有固定表头的或带有上下滚动表格的webview（此时mWebView.getScrollY()一直返回0）滚动操作 冲突*/
+
+        mSwipeLayout.setEnabled(false);
         mSwipeLayout.setColorSchemeResources(android.R.color.holo_blue_bright, android.R.color.holo_green_light,
                 android.R.color.holo_orange_light, android.R.color.holo_red_light);
-
         initWebSettings();
 
         mWebView.requestFocusFromTouch();//支持获取手势焦点
         // 访问assets目录下的文件
 
-        mWebView.loadUrl("http://girl-atlas.net");
+        //mWebView.loadUrl("http://girl-atlas.net");
+        mWebView.loadUrl(mTargetUrl);
         mWebView.requestFocus();//触摸焦点起作用
 
         // 设置WebViewClient
@@ -118,6 +110,7 @@ public class RelaxFragment extends BaseFragment {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 // 使用自己的WebView组件来响应Url加载事件，而不是使用默认浏览器器加载页面
+                Log.i("CleanMaster", "shouldOverrideUrlLoading url=" + url);
                 view.loadUrl(url);
                 // 相应完成返回true
                 return true;
@@ -127,6 +120,7 @@ public class RelaxFragment extends BaseFragment {
             // 页面开始加载
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                Log.i("CleanMaster", "onPageStarted url=" + url);
                 mProgressBar.setVisibility(View.VISIBLE);
                 super.onPageStarted(view, url, favicon);
             }
@@ -134,6 +128,7 @@ public class RelaxFragment extends BaseFragment {
             // 页面加载完成
             @Override
             public void onPageFinished(WebView view, String url) {
+                Log.i("CleanMaster", "onPageFinished url=" + url);
                 mProgressBar.setVisibility(View.GONE);
                 super.onPageFinished(view, url);
             }
@@ -210,6 +205,22 @@ public class RelaxFragment extends BaseFragment {
                 }
                 return false;
             }
+        });
+
+        mWebView.setOnTouchListener((v, event)->{
+            switch (event.getAction()) {
+                case MotionEvent.ACTION_DOWN:
+                    Log.i("CleanMaster", "---ACTION_DOWN---" + mWebView.getUrl());
+                    if (mWebView.getUrl().equals(mTargetUrl)) {
+                        Log.i("CleanMaster", "---mTargetUrl---");
+                        ((TabMainActivity) getActivity()).setViewPagerCanScroll(false);
+                    } else {
+                        Log.i("CleanMaster", "---Not mTargetUrl---");
+                        ((TabMainActivity) getActivity()).setViewPagerCanScroll(true);
+                    }
+                    break;
+            }
+            return false;
         });
     }
 
@@ -328,4 +339,6 @@ public class RelaxFragment extends BaseFragment {
         }
         return false;
     }
+
+    protected abstract String initWebArgs();
 }

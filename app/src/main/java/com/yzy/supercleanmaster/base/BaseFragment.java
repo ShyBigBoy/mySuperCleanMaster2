@@ -24,11 +24,11 @@ public abstract class BaseFragment extends Fragment {
 		super.setUserVisibleHint(isVisibleToUser);
 		if (getUserVisibleHint()) {
 			isVisible = true;
-			Log.d("CleanMaster", "setUserVisibleHint() called,isVisible=" + isVisible);
+			Log.d("CleanMaster", "BaseFragment.setUserVisibleHint() called,isVisible=" + isVisible);
 			onVisible();
 		} else {
 			isVisible = false;
-			Log.d("CleanMaster", "setUserVisibleHint() called,isVisible=" + isVisible);
+			Log.d("CleanMaster", "BaseFragment.setUserVisibleHint() called,isVisible=" + isVisible);
 			onInvisible();
 		}
 	}
@@ -58,7 +58,7 @@ public abstract class BaseFragment extends Fragment {
 	public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 		super.onViewCreated(view, savedInstanceState);
 		isPrepared = true;
-		Log.i("CleanMaster", "BaseFragment.onActivityCreated isPrepared=" + isPrepared);
+		Log.i("CleanMaster", "BaseFragment.onViewCreated isPrepared=" + isPrepared);
 		lazyLoad();
 	}
 
